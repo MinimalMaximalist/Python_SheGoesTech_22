@@ -1,0 +1,16 @@
+#HealthCheck
+my_temperature = int(input('What is your temperetature?'))
+if my_temperature < 35:
+    print("not too cold")
+if 35 <= my_temperature < 37:
+    print("all right")
+if my_temperature >= 37:
+    print("possible fever")
+    
+#Bonus
+my_salary = int(input('What is your salary?'))
+my_record_of_service = int(input('How many years have you worked here?'))
+if my_record_of_service >= 2:
+    print("Your bonus is EUR", my_salary*0.15*my_record_of_service)
+if my_record_of_service < 2:
+    print("no bonus this year")
