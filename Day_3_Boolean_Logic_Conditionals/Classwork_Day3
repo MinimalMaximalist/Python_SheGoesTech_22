@@ -10,7 +10,8 @@ if my_temperature >= 37:
 #Bonus
 my_salary = int(input('What is your salary?'))
 my_record_of_service = int(input('How many years have you worked here?'))
+bonus_rate = 0.15
 if my_record_of_service >= 2:
-    print("Your bonus is EUR", my_salary*0.15*my_record_of_service)
+    print("Your bonus is EUR", my_salary*bonus_rate*my_record_of_service)
 if my_record_of_service < 2:
     print("no bonus this year")
